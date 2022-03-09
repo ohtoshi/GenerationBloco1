@@ -3,8 +3,8 @@ package Heranca;
 public class Animal {
 
 	private String nome;
+	String som;
 	private int idade;
-	private boolean som;
 		
 	public String getNome() {
 		return nome;
@@ -22,11 +22,11 @@ public class Animal {
 		this.idade = idade;
 	}
 
-	public boolean isSom() {
+	public String getSom() {
 		return som;
 	}
 
-	public void setSom(boolean som) {
+	public void setSom(String som) {
 		this.som = som;
 	}
 }

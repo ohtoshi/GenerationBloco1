@@ -1,13 +1,10 @@
 package Heranca;
 
 public class Cachorro extends Animal{
-	private boolean correr;
-
-	public boolean isCorrer() {
-		return correr;
-	}
-
-	public void setCorrer(boolean correr) {
-		this.correr = correr;
+	
+	String habilidade = "correr";
+	
+	public String correr() {
+		return habilidade;
 	}
 }

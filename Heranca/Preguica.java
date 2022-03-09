@@ -1,13 +1,10 @@
 package Heranca;
 
 public class Preguica extends Animal{
-	private boolean correr;
 
-	public boolean isCorrer() {
-		return correr;
-	}
+	String habilidade = "subir em árvores";
 
-	public void setCorrer(boolean correr) {
-		this.correr = correr;
+	public String escalar() {
+		return habilidade;
 	}
 }
