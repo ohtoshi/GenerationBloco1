@@ -27,7 +27,7 @@ public class Exercicio1 {
 		
 		preg.setNome("Slakoth");
 		preg.setIdade(10);
-		preg.setSom("não emite som");
+		preg.setSom("emite som");
 		preg.escalar();
 		
 		System.out.print("O nome do cachorro é "+dog.getNome()+
